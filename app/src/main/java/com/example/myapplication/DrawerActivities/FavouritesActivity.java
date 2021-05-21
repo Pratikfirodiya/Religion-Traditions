@@ -27,6 +27,7 @@ import com.ramotion.foldingcell.FoldingCell;
 import java.lang.reflect.Type;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Random;
 
 public class FavouritesActivity extends  AppCompatActivity {
     ViewPager viewPager;
@@ -35,6 +36,7 @@ public class FavouritesActivity extends  AppCompatActivity {
     FavouritesAdapter adapter;
     SharedPreferences sharedPreferences;
     Integer[] colors = null;
+    int color;
     ArgbEvaluator argbEvaluator = new ArgbEvaluator();
     List<FavouritesModel> models=new ArrayList<>();
     String desc,imageurl,steps;
@@ -66,11 +68,13 @@ public class FavouritesActivity extends  AppCompatActivity {
         step4.setText(stepss[3]);
 
         viewPager.setPadding(130, 0, 130, 0);
+        Random rnd = new Random();
 
         Integer[] colors_temp = {
                 getResources().getColor(R.color.color2),
                 getResources().getColor(R.color.color3),
-                getResources().getColor(R.color.color4)
+                getResources().getColor(R.color.color4),
+                color= ((int)(Math.random()*16777215)) | (0xFF << 24)
         };
 
         colors = colors_temp;

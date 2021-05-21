@@ -14,6 +14,7 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.Spinner;
 import android.widget.TextView;
@@ -39,7 +40,7 @@ public class AddActivity extends AppCompatActivity implements  View.OnClickListe
     Button approvebutton;
     EditText typename,desc,step1,step2,step3,step4,imageurl;
     SharedPreferences sharedPreferences,pref;
-    RelativeLayout relativeLayout;
+    LinearLayout relativeLayout;
     List<String> selectReligion,selectType;
   public   int userid;
     @Override
@@ -56,11 +57,11 @@ public class AddActivity extends AppCompatActivity implements  View.OnClickListe
         relativeLayout=findViewById(R.id.rladdactivity);
         typename=findViewById(R.id.typename_add);
         desc=findViewById(R.id.desc_add);
-        step1=findViewById(R.id.step1_add);
-        step2=findViewById(R.id.step2_add);
-        step3=findViewById(R.id.step3_add);
-        step4=findViewById(R.id.step4_add);
-        imageurl=findViewById(R.id.imgurl_add);
+        step1=findViewById(R.id.steps_add);
+//        step2=findViewById(R.id.step2_add);
+//        step3=findViewById(R.id.step3_add);
+//        step4=findViewById(R.id.step4_add);
+        imageurl=findViewById(R.id.imageurl_add);
         Religionspinner.setOnItemSelectedListener(this);
         Typespinner.setOnItemSelectedListener(this);
         approvebutton.setOnClickListener(this);
