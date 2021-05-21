@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/aprrveframelayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DrawerActivities.MyContibutionFragment.ApprovedFragment">
+
+    <com.google.android.material.progressindicator.LinearProgressIndicator
+        android:layout_width="match_parent"
+        android:layout_gravity="top"
+        android:layout_height="wrap_content"
+        android:id="@+id/proressapprove"
+        android:indeterminate="true" />
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:id="@+id/fetch"
+    android:textAlignment="center"
+    android:textFontWeight="1"
+    android:textStyle="italic"
+    android:visibility="invisible"
+    android:textSize="20sp"/>
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout android:id="@+id/swipe_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListView
+        android:id="@+id/lvapprove"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:choiceMode="multipleChoice"
+        android:clickable="true"
+        >
+
+    </ListView>
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+</FrameLayout>

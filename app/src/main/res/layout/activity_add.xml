@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/rladdactivity"
+    tools:context=".DrawerActivities.AddActivity">
+    <Spinner
+        android:id="@+id/religionspinner"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"/>
+    <Spinner
+        android:id="@+id/typespinner"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"/>
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/typename_add"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="150dp"
+        android:hint=" type name"
+        />
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/desc_add"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="200dp"
+        android:hint="Description"
+        />
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/step1_add"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="250dp"
+        android:hint=" Step 1"
+        />
+    <com.google.android.material.textfield.TextInputEditText
+    android:id="@+id/step2_add"
+    android:layout_width="300dp"
+    android:layout_height="50dp"
+    android:layout_marginTop="290dp"
+    android:hint=" Step 2"
+    />
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/step3_add"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="330dp"
+        android:hint="Step 3"
+        />
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/step4_add"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="370dp"
+        android:hint="Step 4"
+        />
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/imgurl_add"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="410dp"
+        android:hint="imageurl"/>
+
+
+
+
+
+    <Button
+        android:id="@+id/approvebutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       android:layout_marginTop="650dp"
+        android:text="Get Approved">
+
+    </Button>
+
+
+
+
+</RelativeLayout>

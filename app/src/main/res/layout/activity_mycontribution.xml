@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tabs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:tabMode="fixed"
+            android:layout_marginTop="10dp"
+            app:tabGravity="fill"/>
+
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="100dp"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"  />
+
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:layout_width="@dimen/_130sdp"
+        app:backgroundTint="#cdcdcd"
+        android:text="Add Articles"
+        android:id="@+id/addarticles"
+        android:drawableLeft="@drawable/ic_sharp_add_box_24"
+        android:drawableTint="@color/purple_700"
+
+        android:layout_height="@dimen/_50sdp"
+      android:layout_margin="@dimen/_10sdp"
+        app:rippleColor="@android:color/holo_red_light"
+        android:drawablePadding="@dimen/_3ssp"
+        android:layout_gravity="bottom|right"
+        />
+
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

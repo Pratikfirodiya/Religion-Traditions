@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/conla"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ReligionActivity.HinduActivity">
+
+<!--    <TextView-->
+<!--        android:id="@+id/intro"-->
+<!--        android:layout_width="400dp"-->
+<!--        android:layout_height="350dp"-->
+
+<!--        android:layout_marginLeft="10dp"-->
+<!--        android:layout_marginTop="13dp"-->
+<!--        android:fontFamily="@font/roboto_condensed_light_italic"-->
+<!--        android:text="@string/text_with_paragraphs"-->
+<!--        android:textColor="@color/black"-->
+
+
+<!--        android:textSize="25sp">-->
+
+<!--    </TextView>-->
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_350sdp"
+
+        >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_200sdp"
+        android:orientation="vertical"
+        >
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_200sdp"
+        android:id="@+id/relimg"
+        android:adjustViewBounds="true"
+        android:scaleType="center" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_150sdp"
+        android:layout_marginTop="@dimen/_200sdp"
+        android:orientation="vertical"
+        android:padding="@dimen/_10sdp"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginBottom="@dimen/_8sdp"
+            android:text="INTRODUCTION"
+            android:textColor="#000"
+            android:textSize="@dimen/_20ssp" />
+        <TextView
+            android:id="@+id/intro"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_100sdp"
+            android:scrollbars = "vertical"
+            android:text="@string/text_with_paragraphs"
+            android:textColor="#555"
+            android:textSize="@dimen/_20ssp"/>
+    </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+    <com.google.android.material.button.MaterialButtonToggleGroup
+        android:id="@+id/HindutoggleGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_350sdp"
+        app:checkedButton="@id/Hindubtnfestival"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:singleSelection="true">
+
+        <Button
+            android:id="@+id/Hindubtnfestival"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="@dimen/_150sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:text="Festival"
+            app:shapeAppearance="@style/Rounded" />
+
+        <Button
+            android:id="@+id/HindubtnOccasion"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="@dimen/_150sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:text="Occasion"
+            app:shapeAppearance="@style/Rounded" />
+
+    </com.google.android.material.button.MaterialButtonToggleGroup>
+
+
+    <FrameLayout
+        android:id="@+id/Hinduframe"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_370sdp"
+        android:layout_marginTop="@dimen/_380sdp"
+
+        android:layout_weight="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toggleGroup"
+        app:layout_constraintVertical_bias="1.0">
+
+    </FrameLayout>
+
+
+</RelativeLayout>

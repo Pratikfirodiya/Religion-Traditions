@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+        <com.google.android.material.imageview.ShapeableImageView
+            android:layout_rowSpan="2"
+            android:layout_width="80dp"
+            android:layout_height="70dp"
+            app:shapeAppearanceOverlay="@style/roundedImageViewRounded"
+            app:strokeColor="@color/black"
+            app:strokeWidth="1dp"
+            android:scaleType="fitXY"
+            android:id="@+id/imageurl"
+            android:layout_row="0"
+            android:layout_column="0" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_marginLeft="10dp"
+            android:textSize="50px"
+            android:textColor="#62626c"
+            android:id="@+id/textViewtypename"
+            android:layout_row="0"
+            android:layout_column="1" />
+
+
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:layout_columnWeight="1"
+            android:layout_marginLeft="10dp"
+            android:textSize="30px"
+            android:textColor="#7d8491"
+            android:minLines="2"
+            android:id="@+id/desc"
+            android:layout_row="1"
+            android:layout_column="1" />
+    </GridLayout>
+</RelativeLayout>

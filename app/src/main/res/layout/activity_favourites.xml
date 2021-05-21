@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+         >
+    <androidx.viewpager.widget.ViewPager
+        android:foregroundGravity="center"
+        android:id="@+id/viewPager_fav"
+        android:overScrollMode="never"
+        android:clipToPadding="false"
+        android:layout_width="match_parent"
+        android:layout_height="550dp">
+    </androidx.viewpager.widget.ViewPager>
+
+    <com.ramotion.foldingcell.FoldingCell
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:folding-cell="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/folding_cell_fav"
+        android:layout_width="350dp"
+        folding-cell:animationDuration="1000"
+        folding-cell:backSideColor="@color/purple_700"
+        folding-cell:cameraHeight="30"
+        android:clipChildren="false"
+        android:layout_marginLeft="35dp"
+        android:clipToPadding="false"
+        android:layout_marginTop="630dp"
+        android:layout_height="wrap_content">
+        ​
+        <FrameLayout
+            android:id="@+id/cell_content_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone">
+            <TextView
+
+                android:layout_width="60dp"
+                android:background="@color/white"
+                android:text="Step 1:"
+                android:layout_height="100dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:background="@color/white"
+                android:id="@+id/step1_fav"
+                android:layout_marginLeft="60dp"
+                android:text="Step 1:"
+                android:layout_height="100dp" />+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="100dp"
+                android:background="#000000" />
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_marginTop="101dp"
+                android:background="@color/white"
+                android:text="Step 2:"
+                android:layout_height="100dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_marginTop="101dp"
+                android:text="Step 2:"
+                android:id="@+id/step2_fav"
+                android:background="@color/white"
+                android:layout_marginLeft="60dp"
+                android:layout_height="100dp" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="200dp"
+                android:background="#000000" />
+            <TextView
+                android:layout_width="60dp"
+                android:layout_marginTop="201dp"
+                android:text="Step 3:"
+                android:background="@color/white"
+                android:layout_height="100dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_marginTop="201dp"
+                android:id="@+id/step3_fav"
+                android:text="Step 3:"
+                android:background="@color/white"
+                android:layout_marginLeft="60dp"
+                android:layout_height="100dp" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="300dp"
+                android:background="#000000" />
+            <TextView
+                android:layout_width="60dp"
+                android:layout_marginTop="301dp"
+                android:text="Step 4:"
+                android:background="@color/white"
+                android:layout_height="100dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="301dp"
+                android:id="@+id/step4_fav"
+                android:text="Step 4:"
+                android:background="@color/white"
+                android:layout_height="100dp" />
+        </FrameLayout>
+        ​
+        <FrameLayout
+            android:id="@+id/cell_title_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="How To Celebrate?"
+                android:textAlignment="gravity"
+                android:gravity="center"
+                android:textSize="28dp"
+                />
+
+        </FrameLayout>
+        ​
+    </com.ramotion.foldingcell.FoldingCell>
+
+</RelativeLayout>
+</ScrollView>

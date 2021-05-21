@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AuthenticationActivities.MobileLoginActivity">
+
+
+    <Spinner
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:textAlignment="center"
+        android:id="@+id/conunty_spinner"
+        android:background="@drawable/edittextrounded"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="50dp"
+        tools:ignore="MissingConstraints"
+        android:gravity="center_horizontal" />
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/text_input_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+   >
+    <EditText
+        android:id="@+id/editTextPhone"
+        android:layout_width="230dp"
+        android:layout_height="50dp"
+        android:hint="Number"
+        android:ems="10"
+        android:background="@drawable/edittextrounded"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="140dp"
+        android:inputType="phone" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <Button
+        android:id="@+id/otpbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GetOtp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="400dp"
+        />
+
+
+
+</RelativeLayout>

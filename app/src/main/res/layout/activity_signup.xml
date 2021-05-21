@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <EditText
+        android:id="@+id/userFirstname"
+        android:layout_width="350dp"
+        android:drawableLeft="@drawable/ic_baseline_person_24"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:layout_centerHorizontal="true"
+        android:drawableTint="@color/purple_700"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/edittextrounded"
+
+        android:hint="FirstName"
+        />
+<!--    <com.google.android.material.textfield.TextInputLayout-->
+
+<!--        android:layout_width="350dp"-->
+<!--        android:layout_marginLeft="50dp"-->
+<!--        android:layout_marginTop="70dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--        -->
+<!--            android:hint="FirstName"-->
+<!--            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">-->
+
+<!--            <com.google.android.material.textfield.TextInputEditText-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:id="@+id/userFirstname"-->
+<!--                -->
+<!--                android:layout_height="wrap_content"-->
+<!--                />-->
+
+<!--        </com.google.android.material.textfield.TextInputLayout>-->
+        <EditText
+            android:id="@+id/userlastName"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:drawableTint="@color/purple_700"
+            android:layout_centerHorizontal="true"
+            android:drawableLeft="@drawable/ic_baseline_person_24"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="150dp"
+            android:background="@drawable/edittextrounded"
+            android:ems="10"
+
+            android:hint="LastName"
+            />
+        <EditText
+            android:id="@+id/userEmail"
+            android:layout_width="350dp"
+            android:layout_centerHorizontal="true"
+            android:layout_height="50dp"
+            android:drawableLeft="@drawable/ic_baseline_email_24"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="230dp"
+            android:drawableTint="@color/purple_700"
+            android:ems="10"
+            android:background="@drawable/edittextrounded"
+
+            android:hint="Email"
+            />
+        <EditText
+            android:id="@+id/userNumber"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:drawableLeft="@drawable/ic_baseline_local_phone_24"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="310dp"
+            android:drawableTint="@color/purple_700"
+            android:ems="10"
+            android:background="@drawable/edittextrounded"
+            android:inputType="phone"
+            android:hint="phone"
+            />
+
+        <EditText
+            android:id="@+id/userPassword"
+            android:layout_width="350dp"
+            android:layout_centerHorizontal="true"
+            android:layout_height="50dp"
+            android:layout_marginLeft="80dp"
+            android:drawableLeft="@drawable/ic_baseline_lock_24"
+            android:drawableTint="@color/purple_700"
+            android:background="@drawable/edittextrounded"
+            android:layout_marginTop="390dp"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:hint="Password"
+            />
+        <CheckBox
+            android:id="@+id/termcondition"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:drawableLeft="@drawable/ic_agreement_outline"
+            android:layout_marginLeft="60dp"
+            android:text="Terms and Condition"
+            android:layout_marginTop="450dp"
+            />
+
+
+
+        <Button
+            android:id="@+id/registerbutton"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:text="Register"
+            app:strokeWidth="1dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="550dp"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            />
+
+        <Button
+            android:id="@+id/alreadyuserbutton"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:text="already user ?"
+            app:strokeWidth="1dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="600dp"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            />
+
+    </RelativeLayout>

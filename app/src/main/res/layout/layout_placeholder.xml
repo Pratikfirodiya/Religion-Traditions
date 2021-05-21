@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/activity_padding">
+
+    <View
+        android:id="@+id/thumbnail"
+        android:layout_width="@dimen/placeholder_image"
+        android:layout_height="@dimen/placeholder_image"
+        android:layout_marginRight="@dimen/activity_padding"
+        android:background="#c9c0a7" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+      android:layout_marginLeft="70dp"
+        android:layout_marginBottom="40dp"
+
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/placeholder_text_height"
+            android:layout_marginRight="100dp"
+            android:background="#c9c0a7" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/placeholder_text_height"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="10dp"
+            android:background="#c9c0a7" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/placeholder_text_height"
+            android:layout_marginRight="160dp"
+            android:layout_marginTop="10dp"
+            android:background="#c9c0a7" />
+
+    </LinearLayout>
+
+</RelativeLayout>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:padding="@dimen/activity_padding">
+
+        <View
+            android:id="@+id/thumbnail1"
+            android:layout_width="@dimen/placeholder_image"
+            android:layout_height="@dimen/placeholder_image"
+            android:layout_marginRight="@dimen/activity_padding"
+            android:background="#c9c0a7" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:layout_marginBottom="40dp"
+
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/placeholder_text_height"
+                android:layout_marginRight="100dp"
+                android:background="#c9c0a7" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/placeholder_text_height"
+                android:layout_marginRight="50dp"
+                android:layout_marginTop="10dp"
+                android:background="#c9c0a7" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/placeholder_text_height"
+                android:layout_marginRight="160dp"
+                android:layout_marginTop="10dp"
+                android:background="#c9c0a7" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:padding="@dimen/activity_padding">
+
+        <View
+            android:id="@+id/thumbnail2"
+            android:layout_width="@dimen/placeholder_image"
+            android:layout_height="@dimen/placeholder_image"
+            android:layout_marginRight="@dimen/activity_padding"
+            android:background="#c9c0a7" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:layout_marginBottom="40dp"
+
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/placeholder_text_height"
+                android:layout_marginRight="100dp"
+                android:background="#c9c0a7" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/placeholder_text_height"
+                android:layout_marginRight="50dp"
+                android:layout_marginTop="10dp"
+                android:background="#c9c0a7" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/placeholder_text_height"
+                android:layout_marginRight="160dp"
+                android:layout_marginTop="10dp"
+                android:background="#c9c0a7" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:padding="@dimen/activity_padding">
+
+        <View
+            android:id="@+id/thumbnail3"
+            android:layout_width="@dimen/placeholder_image"
+            android:layout_height="@dimen/placeholder_image"
+            android:layout_marginRight="@dimen/activity_padding"
+            android:background="#c9c0a7" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:layout_marginBottom="40dp"
+
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/placeholder_text_height"
+                android:layout_marginRight="100dp"
+                android:background="#c9c0a7" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/placeholder_text_height"
+                android:layout_marginRight="50dp"
+                android:layout_marginTop="10dp"
+                android:background="#c9c0a7" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/placeholder_text_height"
+                android:layout_marginRight="160dp"
+                android:layout_marginTop="10dp"
+                android:background="#c9c0a7" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp"
+        android:padding="@dimen/activity_padding">
+
+        <View
+            android:id="@+id/thumbnail4"
+            android:layout_width="@dimen/placeholder_image"
+            android:layout_height="@dimen/placeholder_image"
+            android:layout_marginRight="@dimen/activity_padding"
+            android:background="#c9c0a7" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:layout_marginBottom="40dp"
+
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/placeholder_text_height"
+                android:layout_marginRight="100dp"
+                android:background="#c9c0a7" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/placeholder_text_height"
+                android:layout_marginRight="50dp"
+                android:layout_marginTop="10dp"
+                android:background="#c9c0a7" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/placeholder_text_height"
+                android:layout_marginRight="160dp"
+                android:layout_marginTop="10dp"
+                android:background="#c9c0a7" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</RelativeLayout>
